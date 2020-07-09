@@ -29,6 +29,7 @@ body > div{
     min-width: 10rem;
     padding: 15px;
     box-shadow: rgb(202, 202, 202) 5px 5px 10px;
+    margin-bottom: 10px;
 }
 .center_strip{
     width: 56%;
@@ -37,7 +38,8 @@ body > div{
     height: auto;
     border: solid black 2px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-content: flex-start;
     flex-wrap: wrap;
     padding: 10px;
 }
@@ -91,7 +93,7 @@ body > div{
 
 /* The users statistics card */
 .personal_stats {
-    width: 35%;
+    width: 38%;
     height: 10rem;
     display: flex;
     flex-wrap: wrap;
